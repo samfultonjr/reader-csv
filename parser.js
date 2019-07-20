@@ -1,6 +1,6 @@
 const lineReader = require('line-reader');
 
-function parseCSV(path, skip){
+function read(path, skip){
     let data = [];
     let lineNumber = 0;
     let cols;
@@ -48,6 +48,6 @@ function isInt(value) {
 
   
 module.exports={
-    parseCSV
+    read
 }
 
