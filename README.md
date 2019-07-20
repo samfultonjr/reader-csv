@@ -1,4 +1,4 @@
-# read-csv
+# reader-csv
 
 ### Installation
 ```
