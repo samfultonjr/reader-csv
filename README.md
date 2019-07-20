@@ -2,7 +2,7 @@
 
 ### Installation
 ```
-yarn add read-csv
+yarn add reader-csv
 ```
 
 ### read( path, skip );
@@ -23,7 +23,7 @@ timestamp, high, low
 1563494340000, 10660.0,10680.15
 ```
 ```javascript
-const csv = require('read-csv');
+const csv = require('reader-csv');
 
 (async()=>{
     let results = await csv.read('./your-file.csv', ['timestamp']);
